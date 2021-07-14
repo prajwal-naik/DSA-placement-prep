@@ -10,7 +10,7 @@ int main()
  {
   int i;
   for(i=0;i<n;i++)
-        ++*a;
+        ++(*a);
       
   printf("The values of the array..\n");
   for(i=0;i<n;i++)
